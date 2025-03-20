@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: white;
+    text-align: center;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: #e0e0e0;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 400px;
+    position: relative;
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: bold;
+    color: black;
+}
+
+.btn-voltar {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.missoes {
+    margin-top: 20px;
+}
+
+.missao {
+    width: 90%;
+    background: none;
+    color: #39c96e;
+    border: 2px solid #39c96e;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    display: block;
+    margin: 10px auto;
+    transition: 0.3s;
+}
+
+.missao:hover {
+    background: #39c96e;
+    color: white;
+}
+
+.descricao {
+    display: none;
+    font-size: 16px;
+    color: black;
+    margin-top: 5px;
+    background: #d4d4d4;
+    padding: 10px;
+    border-radius: 10px;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}

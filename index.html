@@ -5,26 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jogo Educacional</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
-    
+    <script src="script.js" defer></script>
 </head>
 <body>
     <div class="container">
         <div id="login" class="tela ativa">
             <h1>BEM VINDO</h1>
-            <input type="text" placeholder="Usuário" class="input" style="background-color: rgb(66, 253, 131);">
-            <input type="password" placeholder="Senha" class="input" style="background-color: rgb(66, 253, 131);">
+            <input type="text" placeholder="Usuário" class="input">
+            <input type="password" placeholder="Senha" class="input">
             <button class="btn-entrar" onclick="entrar()">Entrar</button>
-            <p style="text-align: left;"><a href="#">Esqueceu a conta?</a></p>
-            <p style="text-align: center;"><button class="btn-entrar">Criar nova conta</button></p>
+            <p><a href="#">Esqueceu a conta?</a></p>
+            <button class="btn-entrar">Criar nova conta</button>
         </div>
 
         <div id="menu" class="tela">
             <h1>MENU</h1>
-            <button onclick="mostrarTela('fases')">Fases</button>
+            <button onclick="window.location.href='fases.html'">Fases</button>
             <button onclick="mostrarTela('colecao')">Coleção</button>
             <button onclick="mostrarTela('progresso')">Progresso</button>
-            <button onclick="mostrarTela('missoes')">Missões</button>
+            <button onclick="window.location.href='missoes.html'">Missões</button>
             <button onclick="mostrarTela('pontos')">Pontos</button>
         </div>
     </div>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Missões</title>
+    <link rel="stylesheet" href="missoes.css">
+    <script src="missoes.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <button class="btn-voltar" onclick="voltar()">←</button>
+        <h1>MISSÕES</h1>
+        <div class="missoes">
+            <button class="missao" onclick="toggleMissao(1)">1 MISSÃO ▼</button>
+            <div class="descricao" id="desc1">Complete o nível 1 para desbloquear recompensas.</div>
+
+            <button class="missao" onclick="toggleMissao(2)">2 MISSÃO ▼</button>
+            <div class="descricao" id="desc2">Jogue 3 partidas e ganhe pontos extras.</div>
+
+            <button class="missao" onclick="toggleMissao(3)">3 MISSÃO ▼</button>
+            <div class="descricao" id="desc3">Colete 5 estrelas para avançar.</div>
+
+            <button class="missao" onclick="toggleMissao(4)">4 MISSÃO ▼</button>
+            <div class="descricao" id="desc4">Desbloqueie um item especial.</div>
+        </div>
+    </div>
+</body>
+</html>
